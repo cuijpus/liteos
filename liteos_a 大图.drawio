@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2023-12-25T09:47:28.640Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="Iloc3tKkuTrFk4cwetAq" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-25T10:01:42.193Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="qEPG-ZAahxZeIZrCCZQz" version="22.1.11" type="github">
   <diagram name="第 1 页" id="Cr2VqbzI6dDtqjlpagMs">
     <mxGraphModel dx="1509" dy="1990" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -287,7 +287,10 @@
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-95" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fillColor=#d5e8d4;strokeColor=#82b366;" edge="1" parent="1" source="z2g5AGjKFLvPSnn4dV-h-92" target="z2g5AGjKFLvPSnn4dV-h-94">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-92" value="&lt;span style=&quot;background-color: initial;&quot;&gt;OsDmesgInit()&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-261" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="z2g5AGjKFLvPSnn4dV-h-92" target="z2g5AGjKFLvPSnn4dV-h-260">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-92" value="&lt;span style=&quot;background-color: initial;&quot;&gt;OsDmesgInit()&lt;br&gt;系统启动信息&lt;br&gt;&lt;/span&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="420" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-94" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;U03UdISSfoZH72xRqkdcZeTsnoe&quot;&gt;&lt;div class=&quot;ace-line ace-line old-record-id-AxFtd1z7MoWnuzxAcQicV0x3nUe&quot;&gt;OsLkLoggerInit()&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
@@ -550,7 +553,7 @@
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-219" value="g_mainTask[CPU核数目];" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="720" y="190" width="160" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-221" value="&lt;font color=&quot;#cc0066&quot;&gt;&lt;b&gt;LosTaskCB&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;任务控制块&lt;br&gt;系统最小竞争单元" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-221" value="&lt;font color=&quot;#cc0066&quot;&gt;&lt;b&gt;LosTaskCB&amp;nbsp;&amp;nbsp;&lt;/b&gt;&lt;/font&gt;任务控制块&lt;br&gt;系统最小竞争单元" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1120" y="200" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-224" value="&lt;font color=&quot;#0000ff&quot;&gt;LOS_DL_LIST &lt;/font&gt;*pstPrev" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
@@ -603,6 +606,30 @@
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-251" value="g_tickPerSecond" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
           <mxGeometry x="720" y="360" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-254" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;DmesgInfo &lt;/font&gt;系统启动信息&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="900" y="506" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-255" value="&lt;font color=&quot;#0000ff&quot;&gt;&amp;nbsp;UINT32 logSize;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="546" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-256" value="&lt;font color=&quot;#007fff&quot;&gt;UINT32 logHead;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="586" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-257" value="&lt;font color=&quot;#007fff&quot;&gt;UINT32 logTail;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="626" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-258" value="&lt;font color=&quot;#0000ff&quot;&gt;CHAR&amp;nbsp; &amp;nbsp;*logBuf;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="666" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-262" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="z2g5AGjKFLvPSnn4dV-h-260" target="z2g5AGjKFLvPSnn4dV-h-254">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-260" value="g_dmesgInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d80073;fontColor=#ffffff;strokeColor=#A50040;" vertex="1" parent="1">
+          <mxGeometry x="720" y="420" width="160" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-263" value="&lt;font color=&quot;#cc0066&quot;&gt;&lt;b&gt;数据结构定义&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
+          <mxGeometry x="920" y="1" width="200" height="40" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
