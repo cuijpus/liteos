@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2023-12-27T01:59:33.008Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="sl4IRo8z5tJJQo72K3-a" version="22.1.11" type="github">
+<mxfile host="app.diagrams.net" modified="2023-12-27T06:01:34.418Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36" etag="MZNQ-SabNn7DFG_SMH7N" version="22.1.11" type="github">
   <diagram name="第 1 页" id="Cr2VqbzI6dDtqjlpagMs">
-    <mxGraphModel dx="1793" dy="2144" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1687" dy="2087" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -343,6 +343,9 @@
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-340" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;" edge="1" parent="1" source="z2g5AGjKFLvPSnn4dV-h-112" target="z2g5AGjKFLvPSnn4dV-h-320">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-389" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="z2g5AGjKFLvPSnn4dV-h-112" target="z2g5AGjKFLvPSnn4dV-h-341">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-112" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;U03UdISSfoZH72xRqkdcZeTsnoe&quot;&gt;&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;U03UdISSfoZH72xRqkdcZeTsnoe&quot;&gt;&lt;div class=&quot;ace-line ace-line old-record-id-HOTOd7lljoDYUixiO60cQ6sHnod&quot;&gt;OsTaskInit()&lt;/div&gt;&lt;div class=&quot;ace-line ace-line old-record-id-HOTOd7lljoDYUixiO60cQ6sHnod&quot;&gt;&lt;b&gt;系统的任务初始化&lt;/b&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" vertex="1" parent="1">
           <mxGeometry x="480" y="1110" width="120" height="40" as="geometry" />
         </mxCell>
@@ -565,31 +568,28 @@
           </mxGeometry>
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-219" value="&lt;font color=&quot;#0000ff&quot;&gt;g_mainTask&lt;/font&gt;[CPU核数目];" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
-          <mxGeometry x="720" y="190" width="160" height="40" as="geometry" />
+          <mxGeometry x="720" y="160" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-247" value="SchedOps &lt;font color=&quot;#0000ff&quot;&gt;g_priorityOps&lt;/font&gt;;&lt;br&gt;调度API注册" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
-          <mxGeometry x="720" y="240" width="160" height="40" as="geometry" />
+          <mxGeometry x="720" y="210" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-249" value="&lt;font style=&quot;font-size: 22px;&quot;&gt;全局变量&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
           <mxGeometry x="720" width="620" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-250" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
-          <mxGeometry x="720" y="290" width="250" height="30" as="geometry" />
-        </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-258" value="&lt;font color=&quot;#0000ff&quot;&gt;CHAR&amp;nbsp; &amp;nbsp;*logBuf;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1670" y="580" width="200" height="40" as="geometry" />
+          <mxGeometry x="720" y="270" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-265" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="z2g5AGjKFLvPSnn4dV-h-260" target="z2g5AGjKFLvPSnn4dV-h-254">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-260" value="g_dmesgInfo" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
-          <mxGeometry x="720" y="420" width="160" height="40" as="geometry" />
+          <mxGeometry x="720" y="430" width="160" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-263" value="&lt;font color=&quot;#cc0066&quot;&gt;&lt;b&gt;数据结构定义&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="1390" y="6" width="740" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-264" value="&lt;font color=&quot;#0000ff&quot;&gt;g_sysClock &lt;/font&gt;系统时钟设定：内核频率 = 18000,0000&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;g_tickPerSecond &lt;/font&gt;= 1000&lt;br&gt;内核频率/1000 = 1MS &lt;b&gt;(滴答Tick)&amp;nbsp; ?&lt;/b&gt;&lt;br&gt;&lt;b&gt;一次系统滴答，称为一次Tick&lt;/b&gt;&lt;br&gt;180MHz 就是每秒18000,0000个Cycle" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="720" y="320" width="250" height="90" as="geometry" />
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-264" value="&lt;font color=&quot;#0000ff&quot;&gt;g_sysClock &lt;/font&gt;系统时钟设定：内核频率 = 18000,0000&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;g_tickPerSecond &lt;/font&gt;= 1000&lt;br&gt;内核频率/1000 = 1MS &lt;b&gt;(滴答Tick)&amp;nbsp; ?&lt;/b&gt;&lt;br&gt;&lt;b&gt;一次系统滴答，称为一次Tick&lt;/b&gt;&lt;br&gt;180MHz 就是每秒18000,0000个Cycle&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="300" width="250" height="120" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-267" value="" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
           <mxGeometry x="720" y="480" width="250" height="30" as="geometry" />
@@ -642,7 +642,7 @@
           <mxGeometry x="1019.5" y="1095" width="133" height="30" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-328" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1950" y="200" width="230.82999999999993" height="560" as="geometry" />
+          <mxGeometry x="1952" y="170" width="230.82999999999993" height="560" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-229" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; color=&quot;#0066cc&quot;&gt;LOS_DL_LIST&amp;nbsp; &amp;nbsp; &amp;nbsp;pend&lt;/font&gt;List;&lt;br&gt;&lt;div style=&quot;background-color: rgb(255, 255, 254); font-family: Consolas, &amp;quot;Courier New&amp;quot;, monospace; font-size: 12px; line-height: 16px;&quot;&gt;就绪队列链表&lt;/div&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#fff2cc;strokeColor=#d6b656;verticalAlign=top;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-328">
           <mxGeometry y="240" width="200" height="120" as="geometry" />
@@ -737,23 +737,8 @@
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-305" value="&lt;font color=&quot;#007fff&quot;&gt;......&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-329">
           <mxGeometry y="520" width="200" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-330" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1670" y="420" width="200" height="160" as="geometry" />
-        </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-254" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;DmesgInfo &lt;/font&gt;系统启动信息&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-330">
-          <mxGeometry width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-255" value="&lt;font color=&quot;#0000ff&quot;&gt;&amp;nbsp;UINT32 logSize;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-330">
-          <mxGeometry y="40" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-256" value="&lt;font color=&quot;#007fff&quot;&gt;UINT32 logHead;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-330">
-          <mxGeometry y="80" width="200" height="40" as="geometry" />
-        </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-257" value="&lt;font color=&quot;#007fff&quot;&gt;UINT32 logTail;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-330">
-          <mxGeometry y="120" width="200" height="40" as="geometry" />
-        </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-331" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1440" y="510" width="200" height="160" as="geometry" />
+          <mxGeometry x="1230" y="510" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-273" value="&lt;font style=&quot;font-weight: bold;&quot; color=&quot;#cc0066&quot;&gt;HwiHandleForm &lt;/font&gt;中断处理函数" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-331">
           <mxGeometry width="200" height="40" as="geometry" />
@@ -768,7 +753,7 @@
           <mxGeometry y="120" width="200" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-333" value="" style="group" vertex="1" connectable="0" parent="1">
-          <mxGeometry x="1670" y="690" width="200" height="160" as="geometry" />
+          <mxGeometry x="1454" y="665" width="200" height="160" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-282" value="&lt;font color=&quot;#cc0066&quot;&gt;&lt;b&gt;StackInfo 堆栈信息&lt;/b&gt;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-333">
           <mxGeometry width="200" height="40" as="geometry" />
@@ -817,6 +802,93 @@
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-326" value="&lt;font color=&quot;#0000ff&quot;&gt;LOS_DL_LIST &lt;/font&gt;*pstNext" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-338">
           <mxGeometry x="39.5" y="90" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-341" value="3个全局变量，串联调度活动" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1140" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-342" value="&lt;font color=&quot;#0000ff&quot;&gt;全局调度队列数组：&lt;/font&gt;g_schedRunqueue[CPU_CORE_NUMS]&lt;br&gt;&lt;br&gt;&lt;font color=&quot;#0000ff&quot;&gt;全局双向链表头：用来串联 调度&lt;/font&gt;&lt;br&gt;g_schedEDF&lt;br&gt;g_schedHPF" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="720" y="1170" width="250" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-391" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Scheduler.svg;" vertex="1" parent="1">
+          <mxGeometry x="990" y="1179" width="68" height="68" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-392" value="(Earliest-Deadline-First， &lt;font color=&quot;#cc0066&quot;&gt;EDF&lt;/font&gt;) 调度&lt;br&gt;根据截止期限动态分配优先级。截止期限越早， 优先级越高； 截止期限越晚&lt;br&gt;&lt;br&gt;2.&amp;nbsp;优先级调度（Highest Privilege First，&lt;font color=&quot;#cc0066&quot;&gt;HPF&lt;/font&gt;）&lt;br&gt;&lt;span class=&quot;lark-record-clipboard&quot; data-lark-record-format=&quot;docx/text&quot; data-lark-record-data=&quot;{&amp;quot;rootId&amp;quot;:&amp;quot;U03UdISSfoZH72xRqkdcZeTsnoe&amp;quot;,&amp;quot;text&amp;quot;:{&amp;quot;initialAttributedTexts&amp;quot;:{&amp;quot;text&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;优先级调度（Highest Privilege First，HPF）&amp;quot;},&amp;quot;attribs&amp;quot;:{&amp;quot;0&amp;quot;:&amp;quot;*1*0+y&amp;quot;}},&amp;quot;apool&amp;quot;:{&amp;quot;numToAttrib&amp;quot;:{&amp;quot;0&amp;quot;:[&amp;quot;textHighlightBackground&amp;quot;,&amp;quot;rgba(183,237,177,0.8)&amp;quot;],&amp;quot;1&amp;quot;:[&amp;quot;author&amp;quot;,&amp;quot;6769074107003699460&amp;quot;]},&amp;quot;nextNum&amp;quot;:2}},&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;referenceRecordMap&amp;quot;:{},&amp;quot;extra&amp;quot;:{&amp;quot;mention_page_title&amp;quot;:{},&amp;quot;external_mention_url&amp;quot;:{}},&amp;quot;isKeepQuoteContainer&amp;quot;:false,&amp;quot;isFromCode&amp;quot;:false,&amp;quot;selection&amp;quot;:[{&amp;quot;id&amp;quot;:2374,&amp;quot;type&amp;quot;:&amp;quot;text&amp;quot;,&amp;quot;selection&amp;quot;:{&amp;quot;start&amp;quot;:2,&amp;quot;end&amp;quot;:36},&amp;quot;recordId&amp;quot;:&amp;quot;UNhTd9SW5oM3YxxVwDKcj12mnkf&amp;quot;}],&amp;quot;payloadMap&amp;quot;:{},&amp;quot;isCut&amp;quot;:false}&quot;&gt;&lt;/span&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
+          <mxGeometry x="1100" y="1175" width="210" height="95" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-398" style="edgeStyle=elbowEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;elbow=vertical;html=1;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" source="z2g5AGjKFLvPSnn4dV-h-395" target="z2g5AGjKFLvPSnn4dV-h-361">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-395" value="&lt;font color=&quot;#0000ff&quot;&gt;g_schedRunqueue【CPU Core nums】&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#e6d0de;strokeColor=#996185;gradientColor=#d5739d;" vertex="1" parent="1">
+          <mxGeometry x="990" y="270" width="250" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-396" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1454" y="430" width="200" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-258" value="&lt;font color=&quot;#0000ff&quot;&gt;CHAR&amp;nbsp; &amp;nbsp;*logBuf;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-396">
+          <mxGeometry y="160" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-330" value="" style="group" vertex="1" connectable="0" parent="z2g5AGjKFLvPSnn4dV-h-396">
+          <mxGeometry width="200" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-254" value="&lt;b style=&quot;&quot;&gt;&lt;font color=&quot;#cc0066&quot;&gt;DmesgInfo &lt;/font&gt;系统启动信息&lt;/b&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-330">
+          <mxGeometry width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-255" value="&lt;font color=&quot;#0000ff&quot;&gt;&amp;nbsp;UINT32 logSize;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-330">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-256" value="&lt;font color=&quot;#007fff&quot;&gt;UINT32 logHead;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-330">
+          <mxGeometry y="80" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-257" value="&lt;font color=&quot;#007fff&quot;&gt;UINT32 logTail;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-330">
+          <mxGeometry y="120" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-397" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="1710" y="280" width="200" height="550" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-361" value="&lt;font color=&quot;#cc0066&quot;&gt;&lt;b&gt;SchedRunqueue 调度队列&lt;/b&gt;&lt;/font&gt;&lt;br&gt;" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-364" value="CHAR processName[];&lt;br&gt;进程名称" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry y="40" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-372" value="&lt;font color=&quot;#007fff&quot;&gt;......&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry y="510" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-373" value="&lt;font color=&quot;#007fff&quot;&gt;LosTaskCB&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;*idleTask;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;dashed=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry y="470" width="200" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-375" value="&lt;font color=&quot;#0066cc&quot;&gt;SortLinkAttribute timeoutQueue&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry y="80" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-376" value="&lt;font color=&quot;#0000ff&quot;&gt;LOS_DL_LIST sortLink;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry x="39.5" y="117" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-377" value="&lt;font color=&quot;#0000ff&quot;&gt;UINT32&amp;nbsp; &amp;nbsp; &amp;nbsp; nodeNum;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry x="39.5" y="147" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-378" value="&lt;font color=&quot;#0000ff&quot;&gt;SPIN_LOCK_S spinLock;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry x="40" y="177" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-379" value="&lt;font color=&quot;#0066cc&quot;&gt;HPFRunqueue&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;*hpfRunqueue;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry y="220" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-380" value="&lt;font color=&quot;#0000ff&quot;&gt;HPFQueue queueList[32]&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry x="39.5" y="257" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-381" value="&lt;font color=&quot;#0000ff&quot;&gt;UINT32&amp;nbsp; &amp;nbsp;queueBitmap;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry x="39.5" y="287" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-384" value="EDFRunqueue&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;*edfRunqueue;" style="rounded=0;whiteSpace=wrap;html=1;verticalAlign=top;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry y="330" width="200" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-385" value="&lt;font color=&quot;#0000ff&quot;&gt;LOS_DL_LIST root;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry x="39.5" y="367" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-386" value="&lt;font color=&quot;#0000ff&quot;&gt;LOS_DL_LIST waitList;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry x="39.5" y="397" width="133" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-388" value="&lt;font color=&quot;#0000ff&quot;&gt;UINT64 period;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;container=0;" vertex="1" parent="z2g5AGjKFLvPSnn4dV-h-397">
+          <mxGeometry x="40" y="427" width="133" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
