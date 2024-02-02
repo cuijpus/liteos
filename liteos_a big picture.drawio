@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T08:13:45.809Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="x2PiV7sVwMY9w4tAftnZ" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T08:14:42.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="UT9zycKGOigdUusqvtoA" version="23.0.2" type="github">
   <diagram name="第 1 页" id="Cr2VqbzI6dDtqjlpagMs">
     <mxGraphModel dx="3577" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -44,16 +44,16 @@
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-17" value="CPU_MAP_SET" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-1950" y="2740" width="120" height="40" as="geometry" />
+          <mxGeometry x="-1933.95" y="4370" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-22" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z2g5AGjKFLvPSnn4dV-h-19" target="z2g5AGjKFLvPSnn4dV-h-21" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-19" value="OsSchedStart()" style="whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=1;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-1950" y="2820" width="120" height="40" as="geometry" />
+          <mxGeometry x="-1933.95" y="4450" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-21" value="&lt;div&gt;while (1) {&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; __asm volatile(&quot;wfi&quot;);&lt;/div&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; }&lt;/div&gt;" style="ellipse;whiteSpace=wrap;html=1;fillColor=#f5f5f5;strokeColor=#666666;rounded=0;fontColor=#333333;" parent="1" vertex="1">
-          <mxGeometry x="-1930" y="2885" width="80" height="80" as="geometry" />
+          <mxGeometry x="-1913.95" y="4515" width="80" height="80" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-26" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z2g5AGjKFLvPSnn4dV-h-23" target="z2g5AGjKFLvPSnn4dV-h-25" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -250,7 +250,7 @@
           <mxGeometry x="-1750" y="3970" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-79" value="" style="sketch=0;html=1;aspect=fixed;strokeColor=none;shadow=0;fillColor=#3B8DF1;verticalAlign=top;labelPosition=center;verticalLabelPosition=bottom;shape=mxgraph.gcp2.arrow_cycle" parent="1" vertex="1">
-          <mxGeometry x="-1833.94" y="2900" width="57.89" height="55" as="geometry" />
+          <mxGeometry x="-1817.89" y="4530" width="57.89" height="55" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-90" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;dashed=1;dashPattern=8 8;fillColor=#d5e8d4;strokeColor=#82b366;" parent="1" source="z2g5AGjKFLvPSnn4dV-h-80" target="z2g5AGjKFLvPSnn4dV-h-82" edge="1">
           <mxGeometry relative="1" as="geometry" />
