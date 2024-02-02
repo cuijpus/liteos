@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T07:45:11.197Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="KjmT4E9q2DVMgoYQ-3cE" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T08:07:49.954Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="nEoAbcYtPFaRbSo1-L-D" version="23.0.2" type="github">
   <diagram name="第 1 页" id="Cr2VqbzI6dDtqjlpagMs">
-    <mxGraphModel dx="3799" dy="693" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3577" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -1115,7 +1115,7 @@
           <mxGeometry x="-1310" y="2730" width="250" height="30" as="geometry" />
         </mxCell>
         <mxCell id="pKbW6HJiUyhcehh4gM0M-6" value="一个互斥量：g_vnodeMux&lt;br&gt;三个链表：&lt;br&gt;g_vnodeFreeList&lt;br&gt;g_vnodeFreeList&lt;br&gt;g_vnodeActiveList&lt;br&gt;&lt;br&gt;一个&lt;font color=&quot;#00cc00&quot;&gt;g_rootVnode&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;" vertex="1" parent="1">
-          <mxGeometry x="-1310" y="2760" width="250" height="130" as="geometry" />
+          <mxGeometry x="-1310" y="2760" width="250" height="110" as="geometry" />
         </mxCell>
         <mxCell id="pKbW6HJiUyhcehh4gM0M-7" value="Vnode" style="rounded=0;whiteSpace=wrap;html=1;fillColor=#d5e8d4;gradientColor=#97d077;strokeColor=#82b366;" vertex="1" parent="1">
           <mxGeometry x="-610" y="2825" width="200" height="40" as="geometry" />
@@ -1140,6 +1140,18 @@
         </mxCell>
         <mxCell id="pKbW6HJiUyhcehh4gM0M-15" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.006;entryY=0.619;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="pKbW6HJiUyhcehh4gM0M-6" target="pKbW6HJiUyhcehh4gM0M-7">
           <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-16" value="" style="image;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/azure2/general/Storage_Queue.svg;" vertex="1" parent="1">
+          <mxGeometry x="-1040" y="2041" width="64" height="52" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-17" value="" style="shape=image;html=1;verticalAlign=top;verticalLabelPosition=bottom;labelBackgroundColor=#ffffff;imageAspect=0;aspect=fixed;image=https://cdn0.iconfinder.com/data/icons/iconsweets2/40/light_signal.png" vertex="1" parent="1">
+          <mxGeometry x="-1060.5" y="1956" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-18" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
+          <mxGeometry x="-1201" y="2800" width="61" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-19" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
+          <mxGeometry x="-1150" y="2640" width="61" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
