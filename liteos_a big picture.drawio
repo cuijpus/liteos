@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2024-02-02T08:14:42.642Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="UT9zycKGOigdUusqvtoA" version="23.0.2" type="github">
+<mxfile host="app.diagrams.net" modified="2024-02-02T09:14:38.292Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="yqfqg0Iz-PH0ZJACvm3_" version="23.0.2" type="github">
   <diagram name="第 1 页" id="Cr2VqbzI6dDtqjlpagMs">
-    <mxGraphModel dx="3577" dy="611" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="3791" dy="743" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -469,7 +469,7 @@
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-157" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z2g5AGjKFLvPSnn4dV-h-154" target="z2g5AGjKFLvPSnn4dV-h-156" edge="1">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="z2g5AGjKFLvPSnn4dV-h-154" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;U03UdISSfoZH72xRqkdcZeTsnoe&quot;&gt;&lt;div class=&quot;ace-line ace-line old-record-id-GsOqdAtuCoNboVxxnYscaWgsn0e&quot;&gt;OsLiteIpcInit()&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
+        <mxCell id="z2g5AGjKFLvPSnn4dV-h-154" value="&lt;div data-docx-has-block-data=&quot;false&quot; data-page-id=&quot;U03UdISSfoZH72xRqkdcZeTsnoe&quot;&gt;&lt;div class=&quot;ace-line ace-line old-record-id-GsOqdAtuCoNboVxxnYscaWgsn0e&quot;&gt;OsLiteIpcInit()&lt;/div&gt;&lt;div class=&quot;ace-line ace-line old-record-id-GsOqdAtuCoNboVxxnYscaWgsn0e&quot;&gt;//kernel扩展通信机制&lt;/div&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;fillColor=#d5e8d4;strokeColor=#82b366;rounded=1;" parent="1" vertex="1">
           <mxGeometry x="-1550" y="2840" width="120" height="40" as="geometry" />
         </mxCell>
         <mxCell id="z2g5AGjKFLvPSnn4dV-h-159" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="z2g5AGjKFLvPSnn4dV-h-156" target="z2g5AGjKFLvPSnn4dV-h-158" edge="1">
@@ -1161,6 +1161,27 @@
         </mxCell>
         <mxCell id="pKbW6HJiUyhcehh4gM0M-22" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
           <mxGeometry x="-1111" y="1060" width="61" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-23" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
+          <mxGeometry x="-1131" y="2459" width="61" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-24" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
+          <mxGeometry x="-1090" y="1569" width="61" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-25" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
+          <mxGeometry x="-1215.5" y="1319" width="61" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-26" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
+          <mxGeometry x="-1140" y="1329" width="61" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-27" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
+          <mxGeometry x="-1121" y="1209" width="61" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-28" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
+          <mxGeometry x="-1111" y="1081" width="61" height="21" as="geometry" />
+        </mxCell>
+        <mxCell id="pKbW6HJiUyhcehh4gM0M-29" value="" style="sketch=0;pointerEvents=1;shadow=0;dashed=0;html=1;strokeColor=none;fillColor=#505050;labelPosition=center;verticalLabelPosition=bottom;verticalAlign=top;outlineConnect=0;align=center;shape=mxgraph.office.concepts.link;" vertex="1" parent="1">
+          <mxGeometry x="-1111" y="1230" width="61" height="21" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
